@@ -1,2 +1,5 @@
 git init 初始化仓库命令
 git add 向缓冲区添加文件
+git commit -m commit 提交缓冲区中的内容到仓库，
+-m当前提交的提示信息
+git diff 文件名 查看文件差异

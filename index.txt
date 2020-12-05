@@ -3,3 +3,12 @@ git add 向缓冲区添加文件
 git commit -m commit 提交缓冲区中的内容到仓库，
 -m当前提交的提示信息
 git diff 文件名 查看文件差异
+git log 查看所有commit的信息
+git reflog 查看所有的操作
+git reset --hard HEAD^ 一个^代表回退一次提交 也可以用commit id 替代 HEAD
+git remote -v 查看远端地址
+git remote add 名字 地址 把一个名字和远端地址绑定
+git push -u 名字 分支名 把远端名和本地分支绑定 -u只有在第一绑定时使用
+git remote remove 名字 删除
+git remote rename 名字 新字 改名
+git remote show 名字 看信息

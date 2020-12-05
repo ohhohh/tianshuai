@@ -12,3 +12,5 @@ git push -u 名字 分支名 把远端名和本地分支绑定 -u只有在第一
 git remote remove 名字 删除
 git remote rename 名字 新字 改名
 git remote show 名字 看信息
+git merge 名字 合并
+git branch 任务追踪
